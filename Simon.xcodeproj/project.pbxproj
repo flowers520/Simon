@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3847E63E1D1795DA005599A5 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3847E63D1D1795DA005599A5 /* ListViewController.swift */; };
+		3847E6401D1795FF005599A5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3847E63F1D1795FF005599A5 /* AVFoundation.framework */; };
+		3847E65D1D195947005599A5 /* blue.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3847E6561D195947005599A5 /* blue.wav */; };
+		3847E65E1D195947005599A5 /* Energy.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3847E6571D195947005599A5 /* Energy.wav */; };
+		3847E65F1D195947005599A5 /* error.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3847E6581D195947005599A5 /* error.wav */; };
+		3847E6601D195947005599A5 /* green.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3847E6591D195947005599A5 /* green.wav */; };
+		3847E6611D195947005599A5 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3847E65A1D195947005599A5 /* music.mp3 */; };
+		3847E6621D195947005599A5 /* red.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3847E65B1D195947005599A5 /* red.wav */; };
+		3847E6631D195947005599A5 /* yellow.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3847E65C1D195947005599A5 /* yellow.wav */; };
+		38A9F8B91D149665001CE96F /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A9F8B81D149665001CE96F /* GameViewController.swift */; };
 		38CC9AB81D143DD1001DC3D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CC9AB71D143DD1001DC3D4 /* AppDelegate.swift */; };
 		38CC9ABA1D143DD1001DC3D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CC9AB91D143DD1001DC3D4 /* ViewController.swift */; };
 		38CC9ABD1D143DD1001DC3D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38CC9ABB1D143DD1001DC3D4 /* Main.storyboard */; };
@@ -15,6 +25,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3847E63D1D1795DA005599A5 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		3847E63F1D1795FF005599A5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3847E6561D195947005599A5 /* blue.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = blue.wav; sourceTree = "<group>"; };
+		3847E6571D195947005599A5 /* Energy.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Energy.wav; sourceTree = "<group>"; };
+		3847E6581D195947005599A5 /* error.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = error.wav; sourceTree = "<group>"; };
+		3847E6591D195947005599A5 /* green.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = green.wav; sourceTree = "<group>"; };
+		3847E65A1D195947005599A5 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		3847E65B1D195947005599A5 /* red.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = red.wav; sourceTree = "<group>"; };
+		3847E65C1D195947005599A5 /* yellow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = yellow.wav; sourceTree = "<group>"; };
+		38A9F8B81D149665001CE96F /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		38CC9AB41D143DD1001DC3D4 /* Simon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Simon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38CC9AB71D143DD1001DC3D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38CC9AB91D143DD1001DC3D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,15 +49,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3847E6401D1795FF005599A5 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3847E6411D195721005599A5 /* musics */ = {
+			isa = PBXGroup;
+			children = (
+				3847E6561D195947005599A5 /* blue.wav */,
+				3847E6571D195947005599A5 /* Energy.wav */,
+				3847E6581D195947005599A5 /* error.wav */,
+				3847E6591D195947005599A5 /* green.wav */,
+				3847E65A1D195947005599A5 /* music.mp3 */,
+				3847E65B1D195947005599A5 /* red.wav */,
+				3847E65C1D195947005599A5 /* yellow.wav */,
+			);
+			name = musics;
+			sourceTree = "<group>";
+		};
 		38CC9AAB1D143DD1001DC3D4 = {
 			isa = PBXGroup;
 			children = (
+				3847E63F1D1795FF005599A5 /* AVFoundation.framework */,
 				38CC9AB61D143DD1001DC3D4 /* Simon */,
 				38CC9AB51D143DD1001DC3D4 /* Products */,
 			);
@@ -54,7 +90,10 @@
 		38CC9AB61D143DD1001DC3D4 /* Simon */ = {
 			isa = PBXGroup;
 			children = (
+				3847E6411D195721005599A5 /* musics */,
 				38CC9AB71D143DD1001DC3D4 /* AppDelegate.swift */,
+				38A9F8B81D149665001CE96F /* GameViewController.swift */,
+				3847E63D1D1795DA005599A5 /* ListViewController.swift */,
 				38CC9AB91D143DD1001DC3D4 /* ViewController.swift */,
 				38CC9ABB1D143DD1001DC3D4 /* Main.storyboard */,
 				38CC9ABE1D143DD1001DC3D4 /* Assets.xcassets */,
@@ -96,6 +135,7 @@
 				TargetAttributes = {
 					38CC9AB31D143DD1001DC3D4 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = CUMF4ZAER2;
 					};
 				};
 			};
@@ -122,9 +162,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3847E6621D195947005599A5 /* red.wav in Resources */,
+				3847E6611D195947005599A5 /* music.mp3 in Resources */,
+				3847E6631D195947005599A5 /* yellow.wav in Resources */,
+				3847E65D1D195947005599A5 /* blue.wav in Resources */,
 				38CC9AC21D143DD1001DC3D4 /* LaunchScreen.storyboard in Resources */,
 				38CC9ABF1D143DD1001DC3D4 /* Assets.xcassets in Resources */,
 				38CC9ABD1D143DD1001DC3D4 /* Main.storyboard in Resources */,
+				3847E65E1D195947005599A5 /* Energy.wav in Resources */,
+				3847E6601D195947005599A5 /* green.wav in Resources */,
+				3847E65F1D195947005599A5 /* error.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +183,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				38CC9ABA1D143DD1001DC3D4 /* ViewController.swift in Sources */,
+				38A9F8B91D149665001CE96F /* GameViewController.swift in Sources */,
+				3847E63E1D1795DA005599A5 /* ListViewController.swift in Sources */,
 				38CC9AB81D143DD1001DC3D4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,7 +296,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Simon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Tom.Simon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -258,7 +309,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Simon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Tom.Simon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -284,6 +337,7 @@
 				38CC9AC81D143DD1001DC3D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
